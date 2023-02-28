@@ -1,0 +1,114 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 700px;
+  column-gap: 50px;
+}
+
+section#product {
+  flex-direction: row-reverse;
+}
+
+section img {
+  width: 300px;
+}
+
+section#who,
+section#contact {
+  flex-direction: row;
+}
+
+section .content {
+  color: #0f8b8d;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+section .content h2 {
+  border-bottom: orange 5px solid;
+  width: 250px;
+}
+
+section .content p {
+  color: #143642;
+  width: 300px;
+}
+
+.who {
+  padding-top: 3rem;
+}
+
+section.ask {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+section.ask h3 {
+  font-style: normal;
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+}
+
+section.ask p {
+  color: black;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+section.sosial-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+section.sosial-media h3 {
+  color: #0f8b8d;
+}
+
+section.sosial-media a {
+  color: rgba(236, 154, 41, 1);
+}
+
+section.sosial-media div {
+  column-gap: 20px;
+  display: flex;
+}
+
+section.sosial-media img {
+  width: 200px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer.footer-link {
+  display: flex;
+  flex-direction: row;
+}
